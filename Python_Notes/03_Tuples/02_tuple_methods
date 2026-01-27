@@ -1,1 +1,30 @@
+t = (1, 3, 4, 1, 67, 45)
+
+# TUPLE COUNT 
+print("\ncounting occurance of 1 in tuple : ",t.count(1))
+# tells the number of occurance of a particular element eg:- in the above list 1 occures 2 times 
+
+# TUPLE INDEX 
+print("\nindex of element in a tuple : ",t.index(3)) 
+# tuple index returns the index of first occuracne of an element in tuple 
+# if a element tends to occur two times in a tuple then it returns the index of first occurance 
+# that is the index of the same element that comes first 
+
+# LENGTH OF TUPLE
+# len() method calculates the number of elements in the tuple
+print("\nNumber of elements in tuple are : ",len(t))
+
+# MIN() TUPLE
+# Returns the smallest item in the tuple
+print("\nSmallest element in tuple is : ",min(t))
+
+# SUM() TUPLE
+# Sum() method returns the sum of the elements in the tuple(only for numeric tuples)
+print("\nSum of elements in the tuple are : ",sum(t))
+
+# CONCATENATION
+# Concatenation means joining of two or more tuples
+t1 = (1,2,3,5)
+t2 = (6,98,"tuple")
+print("\nConcatenating tuple t1 and t2 gives : ",t1 + t2)
 
