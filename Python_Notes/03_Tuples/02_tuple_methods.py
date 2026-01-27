@@ -22,7 +22,7 @@ print("\nSmallest element in tuple is : ",min(t))
 # Sum() method returns the sum of the elements in the tuple(only for numeric tuples)
 print("\nSum of elements in the tuple are : ",sum(t))
 
-# CONCATENATION
+# TUPLE CONCATENATION
 # Concatenation means joining of two more tuples
 t1 = (1,2,3,5)
 t2 = (6,98,"tuple")
