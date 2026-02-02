@@ -17,8 +17,8 @@ Topics:
 - Dictionaries
 - Sets
 - Strings
-- Loops
 - Conditional Statements (if-else)
+- Loops
 - Functions
 - OOP (Object-Oriented Programming)
 - File Handling
