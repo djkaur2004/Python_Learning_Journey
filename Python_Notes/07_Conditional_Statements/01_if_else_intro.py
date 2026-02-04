@@ -1,3 +1,21 @@
+# CONDITIONAL STATEMENTS
+# 1. Conditional statements are used to make decisions in a program.
+# 2. They allow the program to execute different code blocks depending on whether a condition is True or False.
+
+# WHAT ARE IF-ELSE STATEMENTS
+'''If–else statements are a type of conditional statement in Python.
+They check a condition:
+If the condition is True → if block runs
+If the condition is False → else block runs '''
+
+# SYNTAX
+'''
+if condition:
+    # code runs if condition is True
+else:
+    # code runs if condition is False
+'''
+
 # 1. IF-ELSE STATEMENTS
 a = 30
 b = 50
