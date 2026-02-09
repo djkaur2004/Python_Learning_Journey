@@ -22,7 +22,7 @@ except ValueError:
     print("Please enter valid integers")  # eg: if user entered floating-point number instead of an integer
 
 # Example 3
-# else block
+# else block -> Runs only if no exception occurs
 try:
     num = int(input("Enter a number: "))
     print(100 / num)
@@ -33,7 +33,19 @@ except ZeroDivisionError:
 else:
     print("Calculation successful")
 
-# Example
+# Example 4
+# finally block -> Runs always, whether exception occurs or not
+try:
+    f = open("data.txt", "r")
+    print(f.read())
+
+except FileNotFoundError:
+    print("File not found")
+
+finally:
+    print("Program execution completed")
+
+# Example 5
 a = input("Enter any number : ")
 print(f"Multiplication table of {a} is : ")
 
@@ -46,7 +58,7 @@ except Exception as e:
 print("Some important lines of code")
 print("End of loop")
 
-# Example
+# Example 6
 try:
     num = int(input("\nEnter an integer : "))
 except ValueError:
