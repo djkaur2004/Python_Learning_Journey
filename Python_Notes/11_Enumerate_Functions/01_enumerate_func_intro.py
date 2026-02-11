@@ -16,3 +16,11 @@ for index, value in enumerate(fruits):
     print(index, value)
 # here the code is more readable and cleaner
 
+# When is enumerate useful?
+'''
+1. Printing numbered lists
+2. Tracking position while looping
+3. Modifying elements using index
+4. Data processing
+5. Machine Learning (tracking batches, features, etc.)
+'''
