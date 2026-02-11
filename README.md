@@ -20,6 +20,7 @@ Topics:
 - Conditional Statements (if-else)
 - Loops
 - Functions
+- Exception Handling
 - OOP (Object-Oriented Programming)
 - File Handling
 
