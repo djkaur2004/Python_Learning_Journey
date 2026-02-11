@@ -21,6 +21,7 @@ Topics:
 - Loops
 - Functions
 - Exception Handling
+- Enumerate Functions
 - OOP (Object-Oriented Programming)
 - File Handling
 
