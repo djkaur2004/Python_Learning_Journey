@@ -18,7 +18,7 @@ Real thing → Object'''
 '''A class is a blueprint/template for creating objects. Eg:'''
 class Car:
     def __init__(self, color, model):
-        self.color = color    # instance variable
+        self.color = color    
         self.model = model
 
     def drive(self):
@@ -37,7 +37,7 @@ car1.drive()       # The car is moving
 
 # Another Example
 class Person:
-    name = "John"    # class variable
+    name = "John"    
     occupation = "Web Developer"
     networth = 1000000
     def info(self):
