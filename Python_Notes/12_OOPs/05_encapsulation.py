@@ -1,3 +1,10 @@
+# What is Encapsulation?
+'''Encapsulation is the OOP concept of wrapping data (variables) and methods (functions) together inside a class and restricting direct access to some 
+of the data.'''
+
+# Access Modifiers or Specifiers
+'''Access modifiers are rules that control where and how class variables and methods can be accessed. They help protect data and implement encapsulation.'''
+
 # 1. Public Members
 '''Public variables and methods can be accessed from anywhere — inside the class, outside the class, and in subclasses.
 
