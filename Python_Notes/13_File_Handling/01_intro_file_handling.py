@@ -23,3 +23,12 @@ file = open("example.txt", "r")
 content = file.read()
 print(content)
 file.close()
+
+# File Modes
+'''
+Mode	  Description
+"r"	    Read
+"w"	    Write (overwrites file)
+"a"	    Append
+"r+"	  Read + Write
+'''
